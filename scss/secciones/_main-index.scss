@@ -1,0 +1,53 @@
+.main-index {
+.subtitulo {
+    
+    color: rgba(0, 43, 95, 0.39);
+    display: flex;
+    justify-content: space-around;
+}
+
+.titulo {
+    color: black;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    font-size: $typo-secundaria;
+}
+
+.contorno {
+    color: black;
+    border: 2px solid black;
+    height: 250px;
+    
+}
+
+
+.foto1 {
+    width: 200px;
+    height: 150px;
+    margin: 5px;
+    
+}
+
+.foto2 {
+     width: 200px;
+    height: 150px;
+    margin: 5px;
+    margin-right: 50px;
+    margin-left: 20px;
+}
+
+.foto3 {
+    width: 200px;
+    height: 150px;
+    margin: 5px;
+    
+}
+
+
+.fotones {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+}
