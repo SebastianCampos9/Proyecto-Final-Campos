@@ -1,52 +1,49 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Khojki&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@1,200&display=swap");
 * {
   padding: 0;
   margin: 0;
-  font-family: "Open Sans", sans-serif; }
+  font-family: "Noto Serif Khojki", serif; }
 
-.header .titulo-logo {
+.header {
   display: flex;
-  justify-content: center;
-  background-color: rgba(220, 220, 220, 0.437);
-  color: black; }
-
-.header .cuadradito {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start; }
-
-.header .imagen {
-  width: 100px;
-  height: 70px;
-  margin: 2px; }
-
-.header .informacion {
-  list-style: none;
-  font-size: 10px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  height: 30px;
-  align-items: center;
-  background-color: black;
-  border: 2px solid black; }
-
-.header .link1 {
-  background-color: white;
-  border-style: ridge; }
-
-.header .link2 {
-  background-color: white;
-  border-style: ridge; }
-
-.header .link4 {
-  background-color: white;
-  border-style: ridge; }
-
-.header .link5 {
-  background-color: white;
-  border-style: ridge; }
+  justify-content: space-between;
+  border: 2px solid black;
+  font-size: "Noto Serif Khojki", serif; }
+  .header .titulo-logo {
+    font-size: 25px;
+    color: black;
+    align-items: center; }
+  .header .cuadradito {
+    display: flex;
+    align-items: center; }
+  .header .imagen {
+    align-items: center;
+    max-width: 50px;
+    margin: 5px; }
+  .header .informacion {
+    list-style: none;
+    font-size: 15px;
+    display: flex; }
+  .header .link1 {
+    background-color: white;
+    padding-right: 20px;
+    margin-top: 10px; }
+  .header .link2 {
+    background-color: white;
+    padding-right: 20px;
+    margin-top: 10px; }
+  .header .link4 {
+    background-color: white;
+    padding-right: 20px;
+    margin-top: 10px; }
+  .header .link5 {
+    background-color: white;
+    padding-right: 20px;
+    margin-top: 10px; }
+  .header a {
+    text-decoration: none;
+    color: black; }
 
 @media (max-width: 768px) {
   .titulo-logo {
@@ -61,44 +58,60 @@
   .titulo-logo {
     color: white; } }
 
-.main-index .subtitulo {
+.main-productos .subtitulo {
   color: rgba(0, 43, 95, 0.39);
   display: flex;
   justify-content: space-around; }
 
-.main-index .titulo {
+.main-productos .titulo {
   color: black;
   background-color: white;
   display: flex;
   justify-content: space-around;
-  font-size: "Roboto Mono", monospace; }
+  font-size: "Noto Serif Khojki", serif; }
 
-.main-index .contorno {
+.main-productos .contorno {
   color: black;
-  border: 2px solid black;
-  height: 250px; }
+  height: 600px; }
 
-.main-index .foto1 {
+.main-productos .foto-1 {
   width: 200px;
-  height: 150px;
+  height: 150px; }
+
+.main-productos .foto1 {
+  width: 100%px;
+  height: 100%px;
   margin: 5px; }
 
-.main-index .foto2 {
+.main-productos .foto2 {
   width: 200px;
   height: 150px;
   margin: 5px;
   margin-right: 50px;
   margin-left: 20px; }
 
-.main-index .foto3 {
+.main-productos .foto3 {
   width: 200px;
   height: 150px;
   margin: 5px; }
 
-.main-index .fotones {
+.main-productos .fotones {
   display: flex;
   flex-wrap: wrap;
   justify-content: center; }
+
+.main-index .contenedor {
+  width: 100%;
+  height: 550px; }
+  .main-index .contenedor .imagen1 {
+    object-fit: cover;
+    width: 100%;
+    height: 100%; }
+
+.main-index .titulo-index {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
 
 .pie-pagina {
   width: 100%;

@@ -1,55 +1,69 @@
 .header {
-    .titulo-logo {
+
     display: flex;
-    justify-content: center;
-    background-color: rgba(220, 220, 220, 0.437);
-    color: black;  
-   
+    justify-content: space-between;
+    border: 2px solid black;
+    font-size: $typo-primaria;
+
+
+    .titulo-logo {
+        font-size: 25px;
+    color: black; 
+   align-items: center;
     }
     
     
     .cuadradito { 
         display: flex;
         align-items: center;
-        justify-content: flex-start;
+        
     }
 
     .imagen {
-        width: 100px;
-        height: 70px;
-        margin: 2px;
+       align-items: center;
+        max-width: 50px;
+        margin: 5px;
         }
 
         .informacion{
+       
             list-style: none;
-            font-size: 10px;
-            display: flex;
-            flex-direction: row;
-            justify-content: space-around;
-            height: 30px;
-            align-items: center;
-            background-color: rgb(0, 0, 0);
-            border: 2px solid black;
+            font-size: 15px;
+            display: flex;    
+         
         }
         
         .link1 {
             background-color: rgb(255, 255, 255);
-            border-style: ridge;
+           padding-right: 20px;
+           margin-top: 10px;
+           
         }
         
         .link2 {
             background-color: rgb(255, 255, 255);
-            border-style: ridge;
+            padding-right: 20px;
+            margin-top: 10px;
+            
         }
  
         .link4 {
             background-color: rgb(255, 255, 255);
-            border-style: ridge;
+            padding-right: 20px;
+            margin-top: 10px;
+            
         }
         
         .link5 {
             background-color: rgb(255, 255, 255);
-            border-style: ridge;
+            padding-right: 20px;
+            margin-top: 10px;
+            
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
         }
     }
         @media (max-width: 768px) {

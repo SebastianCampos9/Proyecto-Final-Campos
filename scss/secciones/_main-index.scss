@@ -1,4 +1,5 @@
-.main-index {
+.main-productos {
+
 .subtitulo {
     
     color: rgba(0, 43, 95, 0.39);
@@ -11,20 +12,25 @@
     background-color: white;
     display: flex;
     justify-content: space-around;
-    font-size: $typo-secundaria;
+    font-size: $typo-primaria;
 }
 
 .contorno {
     color: black;
-    border: 2px solid black;
-    height: 250px;
+    height: 600px;
     
 }
 
-
-.foto1 {
+.foto-1 {
     width: 200px;
     height: 150px;
+    
+
+}
+
+.foto1 {
+    width: 100%px;
+    height: 100%px;
     margin: 5px;
     
 }
@@ -50,4 +56,24 @@
     flex-wrap: wrap;
     justify-content: center;
 }
+}
+
+.main-index {
+    
+    .contenedor{
+        width: 100%;
+        height: 550px;
+    
+    .imagen1 {
+      object-fit: cover;
+    width: 100%;
+    height: 100%;
+    }
+}
+
+.titulo-index {
+    display: flex;
+    flex-direction: column;
+     align-items: center;
+    }
 }
