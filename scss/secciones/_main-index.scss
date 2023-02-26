@@ -1,19 +1,24 @@
 .main-index {
-    
-    .contenedor{
-        width: 100%;
-        height: 550px;
-    
+  .contenedor {
+    width: 100%;
+    height: 550px;
+
     .imagen1 {
       object-fit: cover;
-    width: 100%;
-    height: 100%;
+      width: 100%;
+      height: 100%;
     }
-}
+  }
 
-.titulo-index {
+  .titulo-index {
     display: flex;
     flex-direction: column;
-     align-items: center;
-    }
+    align-items: center;
+  }
+
+  .cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
 }
