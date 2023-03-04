@@ -53,17 +53,26 @@
     border-radius: 8%; }
 
 @media (max-width: 768px) {
-  .titulo-logo {
-    flex-direction: row;
-    color: white; }
-  .cuadradito {
-    background-color: #0985c3; } }
+  .header {
+    flex-direction: column;
+    background-color: rgba(83, 172, 255, 0.155);
+    align-items: center; }
+  nav {
+    margin: 10px; } }
 
 @media (max-width: 425px) {
+  .header {
+    flex-direction: column;
+    background-color: #d2e5ff;
+    align-items: center; }
   .cuadradito {
-    background-color: #b03208; }
-  .titulo-logo {
-    color: white; } }
+    margin: 10px; }
+  .informacion {
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 0px; }
+  .imagen {
+    margin: 0px; } }
 
 .main-index .contenedor {
   width: 100%;
@@ -83,6 +92,22 @@
   justify-content: space-around;
   align-items: center; }
 
+.main-index .card-body {
+  background-color: rgba(218, 247, 255, 0.452); }
+
+@media (max-width: 768px) {
+  .main-index .cards {
+    flex-direction: row;
+    margin: 25px; }
+  .main-index .card {
+    margin: 10px;
+    justify-content: center; } }
+
+@media (max-width: 425px) {
+  .main-index .cards {
+    flex-direction: column;
+    margin: 25px; } }
+
 .pie-pagina {
   width: 100%;
   background-color: #0a141d; }
@@ -101,7 +126,7 @@
       justify-content: center;
       align-items: center; }
       .pie-pagina .grupo-1 .box figure img {
-        width: 250px; }
+        width: 225px; }
     .pie-pagina .grupo-1 .box h2 {
       color: white;
       margin-bottom: 25px;
@@ -129,9 +154,12 @@
     color: white; }
     .pie-pagina .grupo-2 small {
       font-size: 15px; }
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 768px) {
     .pie-pagina .grupo-1 {
       width: 90%;
       grid-template-columns: repeat(1, 1fr);
       grid-gap: 30px;
       padding: 35px 0px; } }
+  @media (max-width: 425px) {
+    .pie-pagina .main-index {
+      flex-direction: column; } }

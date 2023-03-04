@@ -1,6 +1,5 @@
 .pie-pagina {
         width: 100%;
-        
         background-color: #0a141d;
  
  .grupo-1 {
@@ -22,7 +21,7 @@
             align-items: center;
         
             img {
-            width: 250px;
+            width: 225px;
         }
     }  
     
@@ -64,7 +63,7 @@ transition: all 300ms ease;
         font-size: 15px;  
     }
 }
-@media screen and (max-width:800px){
+@media screen and (max-width:768px){
 .grupo-1 {
    width: 90%;
    grid-template-columns: repeat(1,1fr);
@@ -72,6 +71,14 @@ transition: all 300ms ease;
    padding: 35px 0px;
 }
 }
+
+@media (max-width: 425px) {
+  .main-index {
+      flex-direction: column;
+  
+  }
+
+  }
  }
 
 

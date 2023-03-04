@@ -77,21 +77,41 @@
     }
     
         @media (max-width: 768px) {
-            .titulo-logo {
-                flex-direction: row;
-                color: white
+            .header {
+                flex-direction: column;
+                background-color: rgba(83, 172, 255, 0.155);
+                align-items: center;
+            
             }
-            .cuadradito {
-                background-color: rgb(9, 133, 195);
+
+            nav {
+                margin: 10px;
             }
-        }
+
+          
+            }
+  
         
             @media (max-width: 425px) {
+                .header {
+                    flex-direction: column;
+                    background-color: rgb(210, 229, 255);
+                    align-items: center;  }
+                
                 .cuadradito {
-                    background-color: rgb(176, 50, 8);
+                    margin: 10px;
                 }
+                
+
+                .informacion {
+                    flex-direction: column;
+                  justify-content: center;
+                  padding: 10px 0px;}
+          
+                
+            .imagen {
+                margin: 0px;
             
-                .titulo-logo {
-                    color: white
-                }
             }
+            }
+                
