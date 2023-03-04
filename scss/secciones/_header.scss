@@ -10,18 +10,20 @@
         font-size: 25px;
     color: black; 
    align-items: center;
+   margin-left: 3px;
     }
     
     
     .cuadradito { 
         display: flex;
         align-items: center;
+        height: 50px;
         
     }
 
-    .imagen .animate__flip {
+    .imagen {
        align-items: center;
-        max-width: 50px;
+        max-width: 60px;
         margin: 5px;
         }
 
@@ -39,6 +41,7 @@
            margin-top: 10px;
            
         }
+        
         
         .link2 {
             background-color: rgb(255, 255, 255);
@@ -65,7 +68,14 @@
             text-decoration: none;
             color: black;
         }
+
+        a:hover {
+            background-color: $color-terciario;
+            color: $color-cuaternario;
+            border-radius: 8%;
+        }
     }
+    
         @media (max-width: 768px) {
             .titulo-logo {
                 flex-direction: row;
