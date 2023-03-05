@@ -22,20 +22,62 @@
               <ul class="informacion">
                   <li class="link1"><a href="./productos.html">Productos</a></li>
                   <li class="link2"><a href="./descuentos.html">Descuentos</a></li>
-                  <li class="link4"><a href="./sobre-nosotros.html">Sobre Nosotros</a></li>
-                  <li class="link5"><a href="./contactos.html">Contactos</a></li>
+                  <li class="link4"><a href="./historia.html">Historia</a></li>
+                  <li class="link5"><a href="./soporte.html">Soporte</a></li>
                   
               </ul>
           </nav>
 </header>
-<main class="main-index">
-       <div class="contenedor">
-           <img class="imagen1" src="https://res.cloudinary.com/dzxzrg8gq/image/upload/v1676592838/keagan-henman-Won79_9oUEk-unsplash_jxwzvg.jpg" alt="Presentacion">
-       </div>   
-       <div class="titulo-index">
-       <h2> Indumentaria Unisex</h2>
-       <p> ⚡Disfrutá de ser vos sin límites⚡</p>
-       </div>
+<main class="main-index-form">
+  <form class="row g-3">
+    <div class="col-md-6">
+      <label for="inputEmail4" class="form-label">Nombre</label>
+      <input type="email" class="form-control" id="inputEmail4">
+    </div>
+    <div class="col-md-6">
+      <label for="inputPassword4" class="form-label">Apellido</label>
+      <input type="password" class="form-control" id="inputPassword4">
+    </div>
+    <div class="col-12">
+      <label for="inputAddress" class="form-label">Direccion</label>
+      <input type="text" class="form-control" id="inputAddress" placeholder="Ej: Av.Rivadavia 1023...">
+    </div>
+    <div class="col-md-6">
+      <label for="inputCity" class="form-label">Ciudad</label>
+      <input type="text" class="form-control" id="inputCity">
+    </div>
+    <div class="col-md-4">
+      <label for="inputState" class="form-label">Fecha de Nacimiento</label>
+      <select id="inputState" class="form-select">
+        <option selected>...</option>
+        <option>...</option>
+      </select>
+    </div>
+    <div class="col-md-2">
+      <label for="inputZip" class="form-label">Codigo Postal</label>
+      <input type="text" class="form-control" id="inputZip">
+    </div>
+    <div class="col-12">
+      <label for="inputAddress2" class="form-label">Reclamo</label>
+      <input type="text" class="form-control" id="inputAddress2" placeholder="Ej: No era el talle que pedi..">
+    </div>
+    <div class="col-12">
+      <label for="inputAddress2" class="form-label">Producto a revision</label>
+      <input type="text" class="form-control" id="inputAddress2" placeholder="Ej: SS Remera..">
+    </div>
+    <div class="col-12">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="gridCheck">
+        <label class="form-check-label" for="gridCheck">
+          Marcar si todo es "correcto"
+        </label>
+      </div>
+    </div>
+    <div class="col-12">
+      <button type="submit" class="btn btn-secondary">Enviar</button>
+    </div>
+  </form>
+       
 </main>
 <footer class="pie-pagina">
 
