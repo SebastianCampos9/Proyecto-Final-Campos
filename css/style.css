@@ -87,26 +87,105 @@
   flex-direction: column;
   align-items: center; }
 
+.main-index p {
+  font-family: "Crimson Pro", serif;
+  font-size: 20px; }
+
 .main-index .cards {
   display: flex;
   justify-content: space-around;
-  align-items: center; }
+  align-items: center;
+  margin-bottom: 15px;
+  margin-top: 40px; }
 
 .main-index .card-body {
   background-color: rgba(218, 247, 255, 0.452); }
+
+.main-index .titulo-produ {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  background-color: #51a2ff; }
 
 @media (max-width: 768px) {
   .main-index .cards {
     flex-direction: row;
     margin: 25px; }
   .main-index .card {
-    margin: 10px;
-    justify-content: center; } }
+    margin: 10px; } }
 
 @media (max-width: 425px) {
   .main-index .cards {
     flex-direction: column;
     margin: 25px; } }
+
+.contenido {
+  max-width: 1100px;
+  width: 100%;
+  margin: 40px auto;
+  display: flex; }
+
+.mostrador {
+  width: 100%;
+  transition: 0.5s ease; }
+  .mostrador .fila {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px; }
+    .mostrador .fila .item {
+      max-width: 210px;
+      padding: 30px;
+      height: 250px;
+      text-align: center;
+      margin: 0 10px;
+      cursor: pointer;
+      border-radius: 5px;
+      transition: 0.3s; }
+      .mostrador .fila .item .descripcion {
+        font-family: "Crimson Pro", serif;
+        font-size: 14px; }
+      .mostrador .fila .item img {
+        width: 100%; }
+    .mostrador .fila .item:hover {
+      background-color: #e6e6e6; }
+
+.informacion-pro {
+  font-size: 15px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  list-style: none; }
+
+.link1-pro {
+  background-color: red;
+  color: white;
+  padding: 5px;
+  margin-top: 10px;
+  text-decoration: none; }
+
+.link2-pro {
+  background-color: #51a2ff;
+  color: white;
+  padding: 5px;
+  margin-top: 10px;
+  text-decoration: none; }
+
+.link4-pro {
+  background-color: #51a2ff;
+  color: white;
+  padding: 5px;
+  margin-top: 10px;
+  text-decoration: none; }
+
+.contenedor-sn {
+  background-image: url(https://res.cloudinary.com/dzxzrg8gq/image/upload/v1676592838/keagan-henman-Won79_9oUEk-unsplash_jxwzvg.jpg);
+  text-align: center;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px;
+  color: white; }
 
 .pie-pagina {
   width: 100%;

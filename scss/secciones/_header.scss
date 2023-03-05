@@ -1,117 +1,100 @@
 .header {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid black;
+  font-size: $typo-primaria;
 
+  .titulo-logo {
+    font-size: 25px;
+    color: black;
+    align-items: center;
+    margin-left: 3px;
+  }
+
+  .cuadradito {
     display: flex;
-    justify-content: space-between;
-    border: 2px solid black;
-    font-size: $typo-primaria;
+    align-items: center;
+    height: 50px;
+  }
 
+  .imagen {
+    align-items: center;
+    max-width: 60px;
+    margin: 5px;
+  }
 
-    .titulo-logo {
-        font-size: 25px;
-    color: black; 
-   align-items: center;
-   margin-left: 3px;
-    }
-    
-    
-    .cuadradito { 
-        display: flex;
-        align-items: center;
-        height: 50px;
-        
-    }
+  .informacion {
+    list-style: none;
+    font-size: 15px;
+    display: flex;
+  }
 
-    .imagen {
-       align-items: center;
-        max-width: 60px;
-        margin: 5px;
-        }
+  .link1 {
+    background-color: rgb(255, 255, 255);
+    padding-right: 20px;
+    margin-top: 10px;
+  }
 
-        .informacion{
-       
-            list-style: none;
-            font-size: 15px;
-            display: flex;    
-         
-        }
-        
-        .link1 {
-            background-color: rgb(255, 255, 255);
-           padding-right: 20px;
-           margin-top: 10px;
-           
-        }
-        
-        
-        .link2 {
-            background-color: rgb(255, 255, 255);
-            padding-right: 20px;
-            margin-top: 10px;
-            
-        }
- 
-        .link4 {
-            background-color: rgb(255, 255, 255);
-            padding-right: 20px;
-            margin-top: 10px;
-            
-        }
-        
-        .link5 {
-            background-color: rgb(255, 255, 255);
-            padding-right: 20px;
-            margin-top: 10px;
-            
-        }
+  .link2 {
+    background-color: rgb(255, 255, 255);
+    padding-right: 20px;
+    margin-top: 10px;
+  }
 
-        a {
-            text-decoration: none;
-            color: black;
-        }
+  .link4 {
+    background-color: rgb(255, 255, 255);
+    padding-right: 20px;
+    margin-top: 10px;
+  }
 
-        a:hover {
-            background-color: $color-terciario;
-            color: $color-cuaternario;
-            border-radius: 8%;
-        }
-    }
-    
-        @media (max-width: 768px) {
-            .header {
-                flex-direction: column;
-                background-color: rgba(83, 172, 255, 0.155);
-                align-items: center;
-            
-            }
+  .link5 {
+    background-color: rgb(255, 255, 255);
+    padding-right: 20px;
+    margin-top: 10px;
+  }
 
-            nav {
-                margin: 10px;
-            }
+  a {
+    text-decoration: none;
+    color: black;
+  }
 
-          
-            }
-  
-        
-            @media (max-width: 425px) {
-                .header {
-                    flex-direction: column;
-                    background-color: rgb(210, 229, 255);
-                    align-items: center;  }
-                
-                .cuadradito {
-                    margin: 10px;
-                }
-                
+  a:hover {
+    background-color: $color-terciario;
+    color: $color-cuaternario;
+    border-radius: 8%;
+  }
+}
 
-                .informacion {
-                    flex-direction: column;
-                  justify-content: center;
-                  padding: 10px 0px;}
-          
-                
-            .imagen {
-                margin: 0px;
-            
-            }
-            }
-                
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    background-color: rgba(83, 172, 255, 0.155);
+    align-items: center;
+  }
+
+  nav {
+    margin: 10px;
+  }
+}
+
+@media (max-width: 425px) {
+  .header {
+    flex-direction: column;
+    background-color: rgb(210, 229, 255);
+    align-items: center;
+  }
+
+  .cuadradito {
+    margin: 10px;
+  }
+
+  .informacion {
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 0px;
+  }
+
+  .imagen {
+    margin: 0px;
+  }
+}
