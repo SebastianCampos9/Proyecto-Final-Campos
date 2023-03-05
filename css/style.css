@@ -239,6 +239,3 @@
       grid-template-columns: repeat(1, 1fr);
       grid-gap: 30px;
       padding: 35px 0px; } }
-  @media (max-width: 425px) {
-    .pie-pagina .main-index {
-      flex-direction: column; } }
